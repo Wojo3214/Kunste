@@ -1,0 +1,195 @@
+.nav-btn {
+     position: absolute;
+     top: 20px;
+     right: 30px;
+     display: flex;
+     align-items: flex-end;
+     flex-direction: column;
+     z-index: 2;
+}
+
+.nav-btn div {
+     height: 2px;
+     background-color: var(--white);
+     margin-top: 5px;
+}
+
+.nav-btn div:first-child {
+     width: 25px;
+}
+
+.nav-btn div:last-child {
+     width: 15px;
+     float: right;
+}
+
+.nav-container {
+     background-color: rgba(26, 26, 26, 0.95);
+     width: 100%;
+     height: 100vh;
+     position: fixed;
+     right: -3000px;
+     top: 0px;
+     display: none;
+     z-index: 999999;
+}
+
+.open-nav{
+     animation: openNavAnimation 0.5s;
+     animation-fill-mode: forwards;
+}
+
+.close-nav{
+     animation: closeNavAnimation 2s;
+     animation-fill-mode: forwards;
+}
+
+@keyframes openNavAnimation{
+     from{
+          right: -3000px;
+     }
+
+     to{
+          right: 0px;
+     }
+}
+
+@keyframes closeNavAnimation{
+     from{
+          right: 0px;
+     }
+
+     to{
+          right: -3000px;
+     }
+}
+
+.close-btn {
+     position: absolute;
+     top: 30px;
+     right: 30px;
+     color: var(--white);
+     font-size: 30px;
+     cursor: pointer;
+}
+
+.close-btn div {
+     height: 2px;
+     background-color: var(--white);
+     margin-top: -2px;
+}
+
+.close-btn div:first-child {
+     width: 25px;
+     transform: rotate(45deg);
+     top: 4px;
+}
+
+.close-btn div:last-child {
+     width: 25px;
+     transform: rotate(-45deg);
+}
+
+.navigation {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     flex-direction: column;
+     height: 100%;
+     width: 90%;
+     margin: 0 30px;
+}
+
+.navigation:after {
+     content: "";
+     width: 2px;
+     background-color: var(--white);
+     height: 80%;
+     position: absolute;
+     right: 20px;
+}
+
+.navigation ul {
+     list-style-type: none;
+     justify-self: center;
+}
+
+.navigation ul>li {
+     margin: 20px 0;
+}
+
+.navigation ul>li a {
+     font-size: 30px;
+     color: var(--white);
+     text-decoration: none;
+     text-transform: uppercase;
+     font-family: "futura-pt";
+}
+
+.hours, .close-hours {
+     margin-top: 20%;
+     font-family: "futura-pt";
+     font-weight: medium;
+     color: var(--white);
+     text-transform: uppercase;
+}
+
+.close-hours{
+     display: block;
+}
+
+.log-out-container {
+     margin-top: 30%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
+
+.log-out-container p {
+     font-size: 18px;
+     color: var(--white);
+     margin-left: 10px;
+     text-transform: uppercase;
+}
+
+.arrow-icon {
+     width: 30px;
+     height: 30px;
+     border-radius: 200px;
+     border: 3px solid var(--white);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.arrow-icon i {
+     padding: 10px;
+     color: var(--white);
+     font-size: 20px;
+}
+
+.open-hours, .contact{
+     display: none;
+     flex-direction: column;
+     color: var(--white);
+     margin: 10px 0;
+     font-size: 22px;
+     width: 80%;
+}
+
+.open-hours-container, .contact-container{
+     display: flex;
+     justify-content: space-between;
+     margin: 5px 0;
+}
+
+.time a{
+     color: var(--white);
+     text-decoration: none;
+}
+
+.open-hours h3, .contact h3{
+     font-weight: 400;
+     margin: 5px 0;
+     text-transform: uppercase;
+}

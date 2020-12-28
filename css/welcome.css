@@ -1,0 +1,191 @@
+.start-page, .login-page, .sign-up-page, .your-card-page, .your-card-presentation-page {
+     height: 100vh;
+     width: 100%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+     flex-direction: column;
+     padding: 0;
+}
+
+.login-page{
+     background-image: url("../media/sign-in-bg.jpg");
+}
+
+.sign-up-page, .your-card-page, .your-card-presentation-page{
+     background-image: url("../media/sign-up-bg.jpg");
+}
+
+.start-page{
+     background-image: url("../media/welcome-img.jpg");
+}
+
+.welcome{
+     position: absolute;
+     color: var(--white);
+     top: 10%;
+     left: 20%;
+     transform: translate(-20%, -10%);
+}
+
+.welcome h1{
+     font-weight: 500;
+     font-size: 40px;
+}
+
+.choice{
+     margin-top: auto;
+     min-height: 25vh;
+     padding-bottom: 30px;
+}
+
+.main-cta-btn {
+     margin: 40px 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.main-cta-btn p {
+     font-size: 18px;
+     color: var(--white);
+     margin-right: 10px;
+     text-transform: uppercase;
+}
+
+.logo-main {
+     width: 70%;
+     height: auto;
+     transform: rotate(90deg) translate(40%, calc(100% - 10%));
+}
+
+.other-options{
+     display: flex;
+     justify-content: space-around;
+}
+
+.log-in-option {
+     color: var(--white);
+}
+
+.skip-go-container{
+     margin: 40px 0 20px 0;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.go{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: var(--white);
+     text-decoration: none;
+}
+
+.skip{
+     margin-right: 20px;
+     color: var(--white);
+     text-decoration: none;
+}
+
+.log-out{
+     text-transform: uppercase;
+     margin-right: 10px;
+     font-weight: 600;
+}
+
+.card-container, .login-container{
+     background-color: rgba(26, 26, 26, 0.6);
+     box-sizing: border-box;
+     padding: 20px;
+     margin-top: auto;
+}
+
+.card-container img{
+     display: block;
+     margin: 0 auto 20px auto;
+}
+
+.card-container .card-desc{
+     margin-bottom: 20px;
+     color: var(--white);
+}
+
+input[type="number"]{
+     border: none;
+     border-bottom: 2px solid var(--white);
+     background: none;
+     width: 100%;
+     color: var(--white);
+     font-size: 14px;
+     box-sizing: border-box;
+     padding: 10px;
+}
+
+::placeholder{
+     color: var(--white);
+     font-family: 'Lato', sans-serif;
+     font-size: 14px;
+}
+
+.ticket{
+     margin-top: 10px;
+}
+
+.ticket-error{
+     margin-top: 5px;
+}
+
+/***FIREBASE UI***/
+.firebaseui-card-header, .firebaseui-card-footer{
+     display: none;
+}
+
+.firebaseui-container{
+     background: none;
+}
+
+.firebaseui-label{
+     color: var(--white);
+}
+
+.mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.is-focused .mdl-textfield__label {
+     color: var(--yellow);
+}
+
+.mdl-textfield__input{
+     border-bottom: 2px solid var(--white);
+     color: var(--white);
+}
+
+.firebaseui-textfield.mdl-textfield .firebaseui-input{
+     border-color: rgba(255,255,255,0.12);
+}
+
+.firebaseui-textfield.mdl-textfield .firebaseui-label::after{
+     background-color: var(--white);
+}
+
+.mdl-button--primary.mdl-button--primary{
+     color: var(--blue);
+}
+
+.mdl-button--raised.mdl-button--colored,
+.mdl-button--raised.mdl-button--colored:active,
+.mdl-button--raised.mdl-button--colored:hover{
+     background: var(--white);
+     color: var(--black);
+}
+
+.firebaseui-link{
+     color: var(--blue);
+}
+
+.firebaseui-form-actions{
+     text-align: center;
+}
+
+.firebaseui-error, .ticket-error{
+     color: rgb(109, 25, 4);
+}

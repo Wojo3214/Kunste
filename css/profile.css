@@ -1,0 +1,165 @@
+.profile_page {
+     background-color: var(--black);
+     color: white;
+}
+
+#profile-title {
+     font-size: 30px;
+     font-weight: 500;
+     margin-top: -20px;
+}
+
+.virtual_card {
+     margin: 30px 0;
+}
+
+.subscription_time {
+     display: flex;
+     flex-direction: row;
+     font-weight: 200;
+     font-family: 'Lato', sans-serif;
+     justify-content: space-around;
+}
+
+.collection {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     width: 100%;
+     justify-content: space-between;
+     margin-top: 30px;
+}
+
+.coffee {
+     height: 50px;
+     width: 50px;
+     background-color: #878787;
+     border-radius: 50%;
+     margin: 5px;
+}
+
+.title_container {
+     display: flex;
+     justify-content: space-between;
+}
+
+.favourite_artworks {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+
+.settings_icon {
+     position: absolute;
+}
+
+.profile_top {
+     margin-top: 80px;
+}
+
+.exhibition-favourite {
+     width: 45%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin: 10px 2.5%;
+}
+
+.favourite-image {
+     width: 100%;
+}
+
+#user-name {
+     font-size: 30px;
+     margin: 20px 0;
+     font-weight: 500;
+}
+
+#titles {
+     margin: 40px 0 10px;
+     font-size: 24px;
+     font-weight: 500;
+}
+
+#card-img {
+     margin-bottom: 10px;
+}
+
+.detailed_ticket{
+     position: absolute;
+     display: none;
+     z-index: 2;
+     background-color: black;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+}
+
+.detailed_card {
+     width: 85%;
+}
+
+/* info box */
+
+#info-box {
+    background: var(--white);
+    flex-direction: column;
+    margin: auto;
+    height: fit-content;
+    padding: 3vh 5vw;
+    margin: 8vh 0;
+    position: absolute;
+    width: 85%;
+    display: none;
+    z-index: 4;
+}
+
+#info-close {
+    height: 3vh;
+    margin-bottom: 2vh;
+    display: flex;
+    align-self:flex-end;
+}
+
+#underlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.info_title {
+    color: var(--black);
+    font-size: 24px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.info_text {
+    color: var(--black);
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+.info_img {
+     width: 25%;
+     height: 25%;
+     margin: 5vh 2vw;
+}
+
+#img-section {
+     display: flex;
+     justify-content: center;
+}
+
+.info_text_bold {
+     font-weight: 600;
+     color: var(--black);
+     margin: 4vh 0;
+     text-align: center;
+}

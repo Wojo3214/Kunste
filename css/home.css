@@ -1,0 +1,78 @@
+.home-page {
+     height: 100vh;
+     width: 100%;
+     background-image: url("../media/bg-img1.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+     flex-direction: column;
+     padding: 0;
+}
+
+.home-content {
+     padding: 20px;
+}
+
+.logo-main {
+     width: 70%;
+     height: auto;
+     transform: rotate(90deg) translate(40%, calc(100% - 10%));
+}
+
+.applogo {
+     color: var(--white);
+}
+
+.current-exhibitions {
+     margin-top: auto;
+     background-color: rgba(26, 26, 26, 0.6);
+     padding: 20px 30px;
+     color: var(--white);
+}
+
+.current-exhibitions h3{
+     font-weight: 300;
+}
+
+.current-exhibitions-stuff {
+     display: flex;
+     flex-direction: row;
+     overflow-x: scroll;
+     margin: 15px 0;
+     scroll-snap-type: x mandatory;
+}
+
+.exhibits{
+     scroll-snap-align: center;
+     position: relative;
+     margin-left: 20px;
+}
+
+.exhibits img {
+     height: 150px;
+     width: auto;  
+     filter: brightness(0.7);  
+}
+
+.exhibits h3{
+     position: absolute;
+     bottom: 10px;
+     left: 10px;
+     font-weight: 500;
+}
+
+.current-exhibitions-stuff .exhibits:first-child {
+     margin-left: 0px;
+}
+
+.home_title {
+     font-size: 24px;
+}
+
+.more {
+     color: var(--white);
+     text-decoration: none;
+     text-align: right;
+     float: right;
+     font-weight: 600;
+}

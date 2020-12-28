@@ -1,0 +1,112 @@
+.map_page {
+     background-image: url(../media/map_background.png);
+     background-position: right;
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+     height: 100vh;
+}
+
+.map_title {
+     font-size: 30px;
+     font-weight: 500;
+     margin-top: 8vh;
+     position: absolute;
+}
+
+.map_container {
+     height: 100%;
+     display: flex;
+     justify-content: space-between;
+}
+
+.map_floors {
+     align-self: flex-end;
+     font-weight: 600;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     margin: 30px 0;
+}
+
+.circles_numbers {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 5px 0;
+}
+
+.circle {
+     display: flex;
+     align-items: center;
+     padding: 5px;
+     justify-content: center;
+     border: 2px solid white;
+     border-radius: 100%;
+     width: 35px;
+     height: 35px;
+     margin: 10px 5px;
+}
+
+.hidden_floors {
+     margin-top: -60px;
+}
+
+.floor_number {
+     font-size: 48px;
+     transform: rotate(270deg);
+     white-space: nowrap;
+     width: 30vw;
+     height: 12vw;
+     padding: 18vh 10vw;
+}
+
+.floors_container{
+     flex-direction: column;
+     display: none;
+}
+
+.map_exhibition_details {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     margin: 30px 30px 30px 0;
+     height: auto;
+     align-self: flex-end;
+}
+
+.map_exhibition_details_filtered {
+     display: none;
+     flex-direction: column;
+     justify-content: space-around;
+     margin: 30px 0 30px 0;
+     height: auto;
+     align-self: flex-end;
+}
+
+.exhibition-image-map {
+     padding: 20px;
+     width: 240px;
+}
+
+.exhibition_img_map{
+     width: 240px;
+     filter: brightness(0.4);
+}
+
+.map_name{
+     position: absolute;
+     bottom: 110px;
+     left: 40px;
+     width: 230px;
+     font-weight: 500;
+}
+
+.map_floor{
+     position: absolute;
+     bottom: 80px;
+     left: 40px;
+     width: 220px;
+     font-weight: 600;
+}

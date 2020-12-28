@@ -1,0 +1,124 @@
+:root {
+     --red: #803536;
+     --blue: #80AEBD;
+     --yellow: #D2A446;
+     --green: #797A24;
+     --grey: #848A94;
+     --white: #F2F2F2;
+     --black: #262626;
+}
+
+#exhibitions {
+     padding: 0;
+}
+
+.exhibition-item {
+     position: relative;
+}
+
+.exhibition-name {
+     font-size: 20px;
+}
+
+.exhibition-date {
+     font-size: 16px;
+}
+
+.exhibition-details-container {
+     position: absolute;
+     color: var(--white);
+     bottom: 0;
+     left: 0;
+     padding: 30px;
+     width: 100%;
+}
+
+.image-container {
+     width: 100vw;
+}
+
+.exhibition-image {
+     max-width: 100%;
+}
+
+.description_title {
+     font-size: 30px;
+     margin-bottom: 2vh;
+}
+
+.date-arrow-container {
+     display: flex;
+     justify-content: space-between;
+}
+
+.dark-overlay {
+     content: " ";
+     background-color: rgba(0, 0, 0, 0.5);
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 0;
+}
+
+#exhibitions {
+     position: relative;
+}
+
+#search-icon {
+     position: absolute;
+     top: 0;
+     left: 0;
+     padding: 20px 30px;
+     z-index: 999;
+     transition: all .2s linear;
+}
+
+#search-container {
+     position: absolute;
+     top: 0;
+     left: 0;
+     padding: 20px 30px;
+     z-index: 1;
+     display: flex;
+     align-items: center;
+}
+
+.search-bar {
+     visibility: hidden;
+     width: 0;
+     height: 3.5vh;
+     padding: 0 10px;
+     color: var(--white);
+     font-family: Lato;
+     font-weight: 300;
+     background-color: rgba(0, 0, 0, 0.3);
+     border: 2px solid var(--white);
+     border-radius: 10px;
+     transition: all .2s linear;
+     outline: none;
+}
+
+.search-bar.active {
+     visibility: visible;
+     width: 62vw;
+}
+
+#close-button {
+     height: 2.5vh;
+     opacity: 0;
+     transition: all .5s linear;
+     margin-left: 5px;
+}
+
+.no-results-info{
+     color: var(--yellow);
+     font-weight: 800;
+     width: 90%;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+}

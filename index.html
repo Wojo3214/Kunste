@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Ana Iacovache, Sandra Marie Mago Nielsen, Magdalena Polakowska, Wojciech Dzwonczyk">
+    <meta name="robots" content="noindex">
+
+    <link rel="icon" href="media/favicon.png" type="image/png"/>
+    <link rel="stylesheet" href="https://use.typekit.net/sky3pkz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/artwork-details.css">
+    <link rel="stylesheet" href="css/exhibition-details.css">
+    <link rel="stylesheet" href="css/exhibitions.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/onboarding.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/tickets.css">
+    <link rel="stylesheet" href="css/welcome.css">
+    <script src="https://kit.fontawesome.com/a29188a2f6.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
+    
+
+    <title>Digital guide of Aros Art Museum</title>
+    
+</head>
+
+<body onhashchange="pageChange()">
+    <main id="app">
+        <div class="nav-btn" onclick="openCloseNav()">
+            <div></div>
+            <div></div>
+        </div>
+    </main>
+
+    <!-- The core Firebase JS SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+    <!-- Firebase Firestore (database) JS SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-firestore.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-auth.js"></script>
+
+    <script type="module" src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+/* ONBOARDING PAGE ONE */
+#onboarding {
+     padding: 0;
+     overflow: hidden;
+}
+
+/* ONBOARDING PAGE TWO */
+#onboarding2 {
+     padding: 0;
+     overflow: hidden;
+}
+
+/* ONBOARDING PAGE THREE */
+#onboarding3 {
+     padding: 0;
+     overflow: hidden;
+}
+
+.onboarding_img {
+     padding: 0;
+     height: 100vh;
+     width: 100%;
+}
+
+#onboarding-content {
+     padding: 30px;
+     display: flex; 
+     flex-direction: column;
+     margin: auto;
+     position: absolute;
+     background: rgba(0, 0, 0, 0.5);
+     height: 45%;
+     bottom: 0;
+     color: white;
+}
+
+.onboarding_title {
+     font-size: 30px;
+     margin-top: 3vh;
+     margin-bottom: 1vh;
+     font-weight: 500;
+}
+
+.onboarding_text {
+     font-size: 16px;
+     margin-bottom: 4vh;
+     height: 16vh;
+}
+
+/* Navigational features */
+
+#onboarding-nav {
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+}
+
+.skip_btn {
+     color: white;
+     font-size: 18px;
+     font-weight: 500;
+     margin: auto 0;
+     text-decoration: none;
+}
+
+
+#progress-dots {
+     margin: auto;
+}
+
+.dot_active {
+     height: 8px;
+     width: 8px;
+     margin: 0 5px;
+     background-color: #F2F2F2;
+     border-radius: 50%;
+     display: inline-block;
+}
+
+.dot {
+     height: 8px;
+     width: 8px;
+     margin: 0 5px;
+     background-color: #848A94;
+     border-radius: 50%;
+     display: inline-block;
+}
