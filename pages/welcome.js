@@ -105,7 +105,7 @@ class WelcomePage {
                 <!--START PAGE-->
                <section id="start" class="page start-page">
                     <header class="welcome">
-                        <h1>Welcome in Aros</h1>
+                        <h1>Welcome in KüNSTE</h1>
                     </header>
                     <div class="choice">
                         <div class="main-cta-btn">
@@ -120,7 +120,7 @@ class WelcomePage {
                <!--LOGIN PAGE-->
                <section id="login" class="page login-page">
                     <header class="welcome">
-                        <h1>Log in / Sign up to Aros</h1>
+                        <h1>Log in / Sign up to KüNSTE</h1>
                     </header>
                     
                     <div class="login-container">
@@ -134,7 +134,7 @@ class WelcomePage {
                         <h1>Get your virtual card</h1>
                     </header>
                     <div class="card-container">
-                        <p class="card-desc">We want to enable our clients to visit our museum in the most convenient and comfortable way, that's why you can get a virtual tickets if you already have traditional one.  To get virtual ticket you have to write a code from your current ticket.  Your ticket will be available in "Profile page".</p>
+                        <p class="card-desc">We want to enable our clients to visit our museum in the most convenient and comfortable way, that's why you can get a virtual tickets if you already have traditional one.  To get virtual ticket you have to write a code from your current ticket. Your ticket will be available in "Profile page".</p>
 
                         <input id="ticket" type="number" name="card-number" placeholder="Ticket number" maxlength="6">
                         <p id="ticket-error" class="ticket-error"></p>
@@ -152,8 +152,8 @@ class WelcomePage {
                         <h1>Your virtual card</h1>
                     </header>
                     <div class="card-container">
-                        <img src="./media/virtual_card.png" class="card" alt="Your card">
-                        <p class="card-desc">Your Aros ticket has been added. Now you can go to "Homepage".</p>
+                        <img src="./media/kunste-card.png" class="card" alt="Your card">
+                        <p class="card-desc">Your KüNSTE ticket has been added. Now you can go to "Homepage".</p>
                         <div class="choice2">
                             <div class="main-cta-btn">
                                 <a href="#onboarding" class="go"><p class="log-out">Let's start</p><span class="arrow-icon"><i class="fas fa-arrow-right"></i></span></a>

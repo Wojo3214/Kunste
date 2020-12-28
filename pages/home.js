@@ -27,7 +27,7 @@ export default class HomePage {
             <section id="home" class="page home-page">
                 <div class="home-content">
                     <header class="applogo">
-                        <img src="./media/aros-logo.svg" class="logo-main">
+                        <img src="./media/kunste-logo.svg" class="logo-main">
                     </header>
                 </div>
                 <div class="current-exhibitions">

@@ -14,17 +14,17 @@ export default class TicketsPage {
                 <div id="ticket-box">
                     <img src="./media/close.svg" id="info-close" onclick="closeTicketInfo()">
                     <h2 class="info_title">Annual Passes</h2>
-                    <p class="ticket_text">Enjoy unlimited free entry for ARoS. Obtain enhanced opportunities 
-                    to experience art through the membership of the ARos club.</p>
-                     <h2 class="info_title">ARoS27</h2>
-                    <p class="ticket_text">The ARoS27 membership is for people between the age 18 and 27 - 
+                    <p class="ticket_text">Enjoy unlimited free entry for KüNSTE. Obtain enhanced opportunities 
+                    to experience art through the membership of the KüNSTE club.</p>
+                     <h2 class="info_title">KüNSTE27</h2>
+                    <p class="ticket_text">The KüNSTE27 membership is for people between the age 18 and 27 - 
                     independent on whether you are a student. The membership gives you free entrance to the 
                     museum for an entire year, invitations to membership events as well as a variety of 
-                    other benefits.<a href="https://www.aros.dk/da/besoeg/%C3%A5rskort/" id="info-link">Read more about ARoS27 here. </a></p>
-                    <h2 class="info_title">ARoS Art Club</h2>
-                    <p class="ticket_text">The ARoS Art Club membership offers you and a guest free admission to 
+                    other benefits.<a href="https://www.aros.dk/da/besoeg/%C3%A5rskort/" id="info-link">Read more about KüNSTE27 here. </a></p>
+                    <h2 class="info_title">KüNSTE Art Club</h2>
+                    <p class="ticket_text">The KüNSTE Art Club membership offers you and a guest free admission to 
                     the museum for a year, invitations to private views, individual exhibitions and a list of
-                    other advantages.<a href="https://www.aros.dk/da/besoeg/%C3%A5rskort/" id="info-link">Read more about ARoS Art Club here.</a></p>
+                    other advantages.<a href="https://www.aros.dk/da/besoeg/%C3%A5rskort/" id="info-link">Read more about KüNSTE Art Club here.</a></p>
                 </div>   
 
                     <h2 class="tickets_title">TICKETS</h2>
@@ -101,7 +101,7 @@ export default class TicketsPage {
                     </div>
                     <div>
                         <div id="ticket-types">
-                           <h5 class="ticket_title">ARoS27<h5> 
+                           <h5 class="ticket_title">KüNSTE27<h5> 
                             <div id="ticket-amount">
                             <h5 class="ticket_price">200DKK<h5> 
                         <button type="button" value="minus" onclick="updateAmount5(this);"><img src="./media/minus.svg" alt="minus" class="minus_btn"></button>
@@ -111,7 +111,7 @@ export default class TicketsPage {
                         </div>  
 
                         <div id="ticket-types">
-                           <h5 class="ticket_title">ARoS Art Club<h5> 
+                           <h5 class="ticket_title">KüNSTE Art Club<h5> 
                             <div id="ticket-amount">
                             <h5 class="ticket_price">410DKK<h5> 
                                 <form>

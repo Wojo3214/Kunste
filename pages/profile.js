@@ -36,9 +36,9 @@ export default class Profile {
                     <img src="./media/coffee.png" class="info_img" alt="coffee">
                     <img src="./media/coffee.png" class="info_img" alt="coffee">
                     </div>
-                    <p class="info_text">Collect ARoS Coffee Stamps every time you 
+                    <p class="info_text">Collect KüNSTE Coffee Stamps every time you 
                         enter the museum and scan your Virtual Ticket.</p>
-                    <p class="info_text">Get <b>FREE COFFEE</b> in ARoS Café by 
+                    <p class="info_text">Get <b>FREE COFFEE</b> in KüNSTE Café by 
                         collecting 10 coffee stamps.</p>
                     <p class="info_text_bold">You can get 1 coffee stamp per day..</p>
 
@@ -54,7 +54,7 @@ export default class Profile {
             </header>
             <div class="virtual_card">
                 <h3 id="titles">Your virtual ticket</h3>
-                <img src="./media/virtual_card.png" id="card-img" onclick="zoomTicket()"> 
+                <img src="./media/kunste-card.png" id="card-img" onclick="zoomTicket()"> 
                 <div class="subscription_time">
                     <h4 class="subscription_time">Student ticket</h4>
                     <h4 class="subscription_time">243 days left</h4>

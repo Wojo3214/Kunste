@@ -30,7 +30,7 @@ export default class Map {
             
         <section id="map" class="page map_page">
             <header class="topbar">
-               <h2 class="map_title">ARoS MUSEUM APP</h2>
+               <h2 class="map_title">KüNSTE MUSEUM MAP</h2>
             </header>
             <div class="map_container">
             <div class="map_exhibition_details_filtered"></div>

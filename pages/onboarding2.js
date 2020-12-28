@@ -11,7 +11,7 @@ export default class OnboardingPage2 {
             <div id="onboarding-content">
                 <h3 class="onboarding_title">DISCOVER EXHIBITIONS</h3>
                 <p class="onboarding_text">The app also helps you stay up to date with the 
-                    ARoS newest exhibitions and makes it easier for you to read more about
+                KüNSTE newest exhibitions and makes it easier for you to read more about
                      the different artworks.</p>
                 <div id="onboarding-nav">
                     <button class="skip_btn" onclick="navigateTo('home')">SKIP</button>
