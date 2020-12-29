@@ -53,12 +53,6 @@
      text-transform: uppercase;
 }
 
-.logo-main {
-     width: 70%;
-     height: auto;
-     transform: rotate(90deg) translate(40%, calc(100% - 10%));
-}
-
 .other-options{
      display: flex;
      justify-content: space-around;
