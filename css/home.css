@@ -16,7 +16,7 @@
 .logo-main {
      width: 15%;
      height: auto;
-     transform: rotate(0deg) translate(40%, calc(100% - 95%));
+     transform: translate(40%, calc(100% - 95%));
 }
 
 .applogo {
